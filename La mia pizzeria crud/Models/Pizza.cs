@@ -3,8 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace La_mia_pizzeria_crud.Models
 {
-    public class Pizza
-    {
+    
         [Table("Pizze")]
         public class Pizza
         {
@@ -26,7 +25,7 @@ namespace La_mia_pizzeria_crud.Models
             public int? CategoryId { get; set; }
             public Category? Category { get; set; }
 
-            public List<Ingrediente> Ingredienti { get; set; }
+            //public List<Ingrediente> Ingredienti { get; set; }
 
             public Pizza()
             {
@@ -42,4 +41,4 @@ namespace La_mia_pizzeria_crud.Models
             }
         }
     }
-}
+

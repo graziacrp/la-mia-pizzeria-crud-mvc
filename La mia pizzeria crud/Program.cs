@@ -1,7 +1,10 @@
+using La_mia_pizzeria_crud.Database;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<PizzeriaContext>();
 
 var app = builder.Build();
 
