@@ -7,4 +7,8 @@
     <RootNamespace>La_mia_pizzeria_crud</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\Database\" />
+  </ItemGroup>
+
 </Project>

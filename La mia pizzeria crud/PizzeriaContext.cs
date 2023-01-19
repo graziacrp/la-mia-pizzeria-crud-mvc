@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace La_mia_pizzeria_crud
 {
-    public class PizzeriaContext: DbContext
+    public class PizzeriaContext: DbContextDatabase
     {
         public DbSet<Pizza> Pizze { get; set; }
         public DbSet<Category> Categorie { get; set; }
