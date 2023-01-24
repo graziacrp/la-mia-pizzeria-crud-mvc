@@ -9,6 +9,7 @@ namespace La_mia_pizzeria_crud.Database
         public DbSet<Pizza> Pizze { get; set; }
         public DbSet<Category> Categorie { get; set; }
         public object Tags { get; internal set; }
+        public object Messages { get; internal set; }
 
         //public DbSet<Ingredienti> Ingredienti { get; set; }
 
